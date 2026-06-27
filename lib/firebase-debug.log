@@ -1,0 +1,90 @@
+[debug] [2026-06-27T12:48:22.611Z] ----------------------------------------------------------------------
+[debug] [2026-06-27T12:48:22.643Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-06-27T12:48:22.645Z] CLI Version:   15.22.3
+[debug] [2026-06-27T12:48:22.646Z] Platform:      win32
+[debug] [2026-06-27T12:48:22.646Z] Node Version:  v24.14.0
+[debug] [2026-06-27T12:48:22.646Z] Detected Agent: unknown
+[debug] [2026-06-27T12:48:22.646Z] Time:          Sat Jun 27 2026 21:48:22 GMT+0900 (한국 표준시)
+[debug] [2026-06-27T12:48:22.648Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\develop\my_location_app\lib
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-06-27T12:49:12.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-27T12:49:12.866Z] > authorizing via signed-in user (madongsubdlqslek@gmail.com)
+[debug] [2026-06-27T12:49:12.884Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:12.885Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:12.896Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2026-06-27T12:49:13.870Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2026-06-27T12:49:13.871Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2026-06-27T12:49:19.315Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:19.315Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:19.315Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase [none]
+[debug] [2026-06-27T12:49:19.892Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase 403
+[debug] [2026-06-27T12:49:19.893Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-06-27T12:49:19.902Z] Request to https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2026-06-27T12:49:19.912Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:381:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2026-06-27T12:49:39.020Z] ----------------------------------------------------------------------
+[debug] [2026-06-27T12:49:39.036Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-06-27T12:49:39.037Z] CLI Version:   15.22.3
+[debug] [2026-06-27T12:49:39.038Z] Platform:      win32
+[debug] [2026-06-27T12:49:39.038Z] Node Version:  v24.14.0
+[debug] [2026-06-27T12:49:39.038Z] Detected Agent: unknown
+[debug] [2026-06-27T12:49:39.039Z] Time:          Sat Jun 27 2026 21:49:39 GMT+0900 (한국 표준시)
+[debug] [2026-06-27T12:49:39.039Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\develop\my_location_app\lib
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-06-27T12:49:46.172Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-27T12:49:46.174Z] > authorizing via signed-in user (madongsubdlqslek@gmail.com)
+[debug] [2026-06-27T12:49:46.176Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:46.176Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:46.177Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2026-06-27T12:49:47.071Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2026-06-27T12:49:47.071Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2026-06-27T12:49:49.499Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:49.499Z] Checked if tokens are valid: true, expires at: 1782568078111
+[debug] [2026-06-27T12:49:49.499Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase [none]
+[debug] [2026-06-27T12:49:49.841Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase 403
+[debug] [2026-06-27T12:49:49.843Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-06-27T12:49:49.847Z] Request to https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2026-06-27T12:49:49.856Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/ultimate-flame-500709-c6:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:381:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

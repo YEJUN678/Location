@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-location-socket-server
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CORS_ORIGIN
+        value: "*"
